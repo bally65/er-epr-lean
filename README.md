@@ -49,7 +49,21 @@ Documentation is in Traditional Chinese; theorem names and statements are in Lea
 
 **AI disclosure**
 
-【待作者填寫：用自己的話寫兩三句中文原意（哪些是你決定的、哪些是 AI 做的、怎麼驗證的），再附英文翻譯並註明翻譯由 Claude 協助。填好之前不要公開。】
+I chose the direction of this library, which results to prove, and whether to take each
+next step; many of the topics came from my own intuitive questions about physics, such as
+measurement, entanglement swapping, and the other side of a black hole. The Lean code, the
+proofs, and most of the documentation were written by an AI (Anthropic's Claude) under my
+direction. Every theorem is checked by the Lean kernel and depends only on the three standard
+axioms; reverse drills (deliberately breaking a statement and confirming that the proof fails)
+and coupling assertions check that the proofs do not take shortcuts. These are mathematical
+results: they show what holds, and what cannot hold, under the stated definitions and
+assumptions. Whether nature actually works this way is a question for experiment; this library
+neither proposes nor performs any experiment. No physicist or mathematician has reviewed it
+yet; if you find an error or an overstatement, please open an issue.
+
+*(English translation assisted by Claude. The original, in the author's words:)*
+
+> 這個庫的方向、要證明哪些東西、每一步要不要做，都是我決定的；很多題目來自我自己對物理的直覺提問，例如觀測、糾纏交換、黑洞的另一邊。Lean 程式碼、證明和大部分文件，是 AI（Anthropic 的 Claude）在我的指示下寫的。每一條定理都經過 Lean 核心的機器檢查，只用到標準的三條公理；另外用反向演習（故意改壞、確認會失敗）和耦合斷言，檢查證明沒有走捷徑。這些都是數學上的結果：它們說明在給定的定義與假設下，哪些事成立、哪些不可能。自然界是不是真的這樣運作，需要實驗來回答；這個庫本身沒有提出、也沒有做任何實驗。目前還沒有物理或數學專家審過，如果發現錯誤或說過頭的地方，歡迎開 issue。
 
 **License**: Apache-2.0 (see `LICENSE`). Copyright 2026 Li Wei-Ting.
 Errors and questions: please open a GitHub issue.
