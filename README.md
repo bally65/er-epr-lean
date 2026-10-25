@@ -1,5 +1,7 @@
 # ER=EPR toy pieces in Lean 4
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23642750.svg)](https://doi.org/10.5281/zenodo.23642750)
+
 A Lean 4 + mathlib library that proves, in finite dimensions, the pieces on each side of
 the ER=EPR conjecture, and leaves the conjecture itself as an explicit gap. Instead of
 trying to fill the gap, it proves what the gap cannot be and which conditions surround it.
@@ -64,6 +66,26 @@ yet; if you find an error or an overstatement, please open an issue.
 *(English translation assisted by Claude. The original, in the author's words:)*
 
 > 這個庫的方向、要證明哪些東西、每一步要不要做，都是我決定的；很多題目來自我自己對物理的直覺提問，例如觀測、糾纏交換、黑洞的另一邊。Lean 程式碼、證明和大部分文件，是 AI（Anthropic 的 Claude）在我的指示下寫的。每一條定理都經過 Lean 核心的機器檢查，只用到標準的三條公理；另外用反向演習（故意改壞、確認會失敗）和耦合斷言，檢查證明沒有走捷徑。這些都是數學上的結果：它們說明在給定的定義與假設下，哪些事成立、哪些不可能。自然界是不是真的這樣運作，需要實驗來回答；這個庫本身沒有提出、也沒有做任何實驗。目前還沒有物理或數學專家審過，如果發現錯誤或說過頭的地方，歡迎開 issue。
+
+**How to cite** (see `CITATION.cff`):
+
+```
+Li, Wei-Ting. er_epr_lean: Machine-checked finite-dimensional pieces around the
+ER=EPR conjecture in Lean 4. Zenodo, 2026. DOI: 10.5281/zenodo.23642750
+(version v0.1.0: 10.5281/zenodo.23642751)
+```
+
+```bibtex
+@software{li_er_epr_lean_2026,
+  author    = {Li, Wei-Ting},
+  title     = {{er\_epr\_lean}: Machine-checked finite-dimensional pieces around the {ER=EPR} conjecture in {Lean} 4},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v0.1.0},
+  doi       = {10.5281/zenodo.23642751},
+  url       = {https://doi.org/10.5281/zenodo.23642751}
+}
+```
 
 **License**: Apache-2.0 (see `LICENSE`). Copyright 2026 Li Wei-Ting.
 Errors and questions: please open a GitHub issue.

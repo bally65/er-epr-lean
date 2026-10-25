@@ -16,6 +16,14 @@ abstract: >-
   theorems depend only on the standard axioms (propext, Classical.choice, Quot.sound),
   with 95 reverse drills and 91 machine-checked coupling assertions.
 type: software
+doi: "10.5281/zenodo.23642750"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23642750"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23642751"
+    description: "Version v0.1.0"
 authors:
   - family-names: "Li"
     given-names: "Wei-Ting"
@@ -36,3 +44,4 @@ keywords:
   - "no-go theorem"
   - "tensor networks"
 version: "v0.1.0"
+date-released: "2026-10-25"
