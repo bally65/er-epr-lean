@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it as below."
+title: "er_epr_lean: Machine-checked finite-dimensional pieces around the ER=EPR conjecture in Lean 4"
+abstract: >-
+  A Lean 4 + mathlib library that proves, in finite dimensions, the pieces on each side
+  of the ER=EPR conjecture and leaves the conjecture itself as an explicit gap. On the
+  EPR side: no-signalling, thermofield-double states, von Neumann entropy facts, a full
+  Landauer bound, monogamy for pure marginals, entanglement swapping, and an area law for
+  tensor networks. On the ER side: Kruskal non-traversability, beta = 8 pi M from the
+  cone-angle condition, and the Unruh/Bogoliubov thermal ratio. In the middle: a no-go
+  theorem showing that no fixed finite-dimensional Hamiltonian has Gibbs entropy equal to
+  beta^2/(16 pi) on an interval of beta (and that this hinges on the Hamiltonian being
+  fixed), an idealized pure-state AMPS contradiction, and a proof that graph-realizable
+  entropies form a strict subset of quantum entropies. Most items are textbook
+  finite-dimensional facts; the library is not a proof or refutation of ER=EPR. All 599
+  theorems depend only on the standard axioms (propext, Classical.choice, Quot.sound),
+  with 95 reverse drills and 91 machine-checked coupling assertions.
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Wei-Ting"
+    orcid: "https://orcid.org/0009-0005-8891-330X"
+    affiliation: "Chaoyang University of Technology"
+    alias: "bally65"
+repository-code: "https://github.com/bally65/er-epr-lean"
+license: "Apache-2.0"
+keywords:
+  - "Lean 4"
+  - "mathlib"
+  - "formal verification"
+  - "interactive theorem proving"
+  - "ER=EPR"
+  - "quantum information"
+  - "entanglement"
+  - "black hole thermodynamics"
+  - "no-go theorem"
+  - "tensor networks"
+version: "v0.1.0"
