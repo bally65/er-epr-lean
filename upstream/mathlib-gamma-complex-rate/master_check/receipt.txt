@@ -1,0 +1,15 @@
+host=lean-node utc=20261024T161230Z
+lean_procs_before=0 memavail_kb=76101044
+/dev/mapper/ubuntu--vg-ubuntu--lv  249G  105G  134G  44% /
+rc_clone=0
+mathlib_commit=280e9fcd660f4d566d97adf0b821c49b4eee91b6 2026-10-24
+toolchain=leanprover/lean4:v4.36.0-rc1
+rc_toolchain=0
+lean_version=info: plausible: materializing new dependency
+rc_cache_get=0
+patch_sha256=72d88750964ca177a65f4973f3a988ce61e8fa367b60a2f3903ee710163999ce
+rc_build=1
+rc_lint_style=0
+rc_run_linter=0
+rc_axioms=0
+lean_procs_after=0

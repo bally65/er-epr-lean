@@ -1,0 +1,31 @@
+耦合通過：ErEpr.no_gibbs_matches_first_law 用到 [hawking_beta,
+ first_law_area,
+ no_finite_dim_gibbs_matches_bh_mass,
+ antitoneOn_gibbsEntropyFn]（閉包 64 個本庫常數）
+耦合通過：ErEpr.no_gibbs_matches_unitConeAngle 用到 [hawking_beta, no_finite_dim_gibbs_matches_bh_mass]（閉包 56 個本庫常數）
+耦合通過：ErEpr.first_law_area 用到 [hawking_beta, conicalRatio_tendsto]（閉包 19 個本庫常數）
+獨立通過：ErEpr.no_finite_dim_gibbs_matches_bh 不依賴 [hawking_beta, first_law_area, conicalRatio]（閉包 43 個本庫常數）
+獨立通過：ErEpr.antitoneOn_gibbsEntropyFn 不依賴 [hawking_beta, first_law_area]（閉包 17 個本庫常數）
+耦合通過：ErEpr.ptrB_idKron_tfdState 用到 [ptrB_idKron, ptrB_tfdState]（閉包 37 個本庫常數）
+耦合通過：ErEpr.ptrB_tfdState 用到 [tfdAmp_mul_conjTranspose, exp_neg_smul_eigen]（閉包 27 個本庫常數）
+耦合通過：ErEpr.tfd_ptrA_isKMS 用到 [ptrA_tfdState, gibbs_isKMS]（閉包 36 個本庫常數）
+耦合通過：ErEpr.gibbs_tracial_iff_scalar 用到 [KMSPair.tracial_iff_period, gibbs_isKMS]（閉包 44 個本庫常數）
+耦合通過：ErEpr.Kraus.no_signalling 用到 [ptrB_idKron, idKron_unique]（閉包 29 個本庫常數）
+耦合通過：ErEpr.vnEntropy_cut_mpsOpen_le 用到 [rank_cutAt_mpsOpen_le, vnEntropy_le_log_rank, chainProd_append]（閉包 18 個本庫常數）
+耦合通過：ErEpr.rank_cutMat_tnAmp_le 用到 [cutMat_tnAmp]（閉包 19 個本庫常數）
+耦合通過：ErEpr.ghz4_not_minCut 用到 [minCut_mmi, regionEntropy_ghz, mmi_contract]（閉包 48 個本庫常數）
+耦合通過：ErEpr.ghz4_mmi_fails 用到 [regionEntropy_ghz]（閉包 24 個本庫常數）
+獨立通過：ErEpr.ghz4_not_minCut 不依賴 [ghz4_mmi_fails]（閉包 48 個本庫常數）
+耦合通過：ErEpr.inversion_swaps_UV 用到 [sliceX_inv]（閉包 9 個本庫常數）
+耦合通過：ErEpr.gibbs_dS_eq_beta_dE 用到 [hasDerivAt_gibbsEntropyFn, hasDerivAt_energyMean]（閉包 17 個本庫常數）
+耦合通過：ErEpr.vnEntropy_le_beta_energy_add_log 用到 [klein_gap_eq,
+ kleinGap_nonneg,
+ vnEntropy_eq_sum_eigenvalues,
+ trace_mul_eq_sum]（閉包 27 個本庫常數）
+耦合通過：ErEpr.vnEntropy_eq_beta_energy_add_log_iff 用到 [gibbs_eq_conj,
+ vnEntropy_gibbs_eq_fn,
+ trace_gibbs_mul_self,
+ kleinGap_pos]（閉包 53 個本庫常數）
+獨立通過：ErEpr.vnEntropy_le_beta_energy_add_log 不依賴 [vnEntropy_gibbs_eq_fn, hawking_beta, first_law_area]（閉包 27 個本庫常數）
+耦合通過：ErEpr.negctrl_klein_pure_H2 用到 [vnEntropy_eq_beta_energy_add_log_iff, gibbs_H2_log2]（閉包 64 個本庫常數）
+獨立通過：ErEpr.ptrB_idKron 不依賴 [idKron_unique]（閉包 10 個本庫常數）

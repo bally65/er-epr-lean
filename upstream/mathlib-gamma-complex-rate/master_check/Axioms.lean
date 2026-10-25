@@ -1,0 +1,4 @@
+import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+#print axioms Complex.integral_cpow_mul_exp_neg_mul_Ioi_of_re_pos
+#print axioms Complex.integrableOn_cpow_mul_exp_neg_mul_Ioi
+#print axioms Complex.differentiableAt_integral_cpow_mul_exp_neg_mul_Ioi

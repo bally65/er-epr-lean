@@ -1,0 +1,27 @@
+host=lean-node utc=20261023T120857Z
+uname=Linux 6.8.0-142-generic x86_64 nproc=16
+toolchain=leanprover/lean4:v4.33.1
+lake_version=Lake version 5.0.0-src+819816b (Lean version 4.33.1)
+lean_version=Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+manifest_sha256_before=25b6c9f21874e6e81b2475a140610fbd4c40e79fdd72f6c1d75804951dc16759
+lakefile_sha256=3de3338bca0b0926cb4501f1ecfdad817ee54eafe6813fa0d04455813bc48c45
+sha256 ErEpr.lean f82a6f1ce0af8054b8e8acd8a0d86ed432a17feba0a391cced039bc2fa2c294b
+sha256 ErEpr/Axioms.lean 811ea0801b642f6bb3633f8233af8ad7d68be99ee5551cd1cd3c6694dea2278d
+sha256 ErEpr/Basic.lean 5c5ff1c3235704f7663dba551641fa6c789a1f8b4fd672079e741292ab1c5be7
+sha256 ErEpr/Entropy.lean afb9964a10fc78945ed9a4f93766c75cd7331543d42264a68c549acdf8c6a571
+sha256 ErEpr/MPS.lean b165e1259dacfb4da9d9d0f56c02ccd24cae813c5122a58193186f220033dd5f
+sha256 ErEpr/NoSignalling.lean 7895c0bc5af436af4e6f5a30cad2f2785d6cd134fd914baaccdfc6bfd55af826
+sha256 ErEpr/TFD.lean 6b59b9607a2ff9730b9889b5270e16169e1fb8210558c707b02e69be2f9418f8
+lean_procs_before=0 memavail_kb=57435600
+rc_cache_get=0
+manifest_sha256_after_cache=25b6c9f21874e6e81b2475a140610fbd4c40e79fdd72f6c1d75804951dc16759
+rc_lake_build_ErEpr.Basic=0 memavail_kb_before=63539948
+rc_lake_build_ErEpr.NoSignalling=0 memavail_kb_before=63335452
+rc_lake_build_ErEpr.TFD=0 memavail_kb_before=63415492
+rc_lake_build_ErEpr.MPS=0 memavail_kb_before=63433764
+rc_lake_build_ErEpr.Entropy=0 memavail_kb_before=63460440
+rc_lake_build_ErEpr=0 memavail_kb_before=63400192
+rc_steps=0
+rc_lake_build=0
+manifest_sha256_after_build=25b6c9f21874e6e81b2475a140610fbd4c40e79fdd72f6c1d75804951dc16759
+rc_axioms=0
